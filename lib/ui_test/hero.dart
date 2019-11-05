@@ -41,7 +41,7 @@ class LoginState extends State<Login>{
 	    resizeToAvoidBottomPadding: true,
 	    appBar: new AppBar(
 		    actions: <Widget>[
-		    	Icon(Icons.person),
+		    	Icon(Icons.favorite_border ),
 		    ],
 		    title: Text("login"),
 		    centerTitle: true,
