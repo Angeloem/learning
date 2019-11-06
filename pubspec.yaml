@@ -50,6 +50,12 @@ flutter:
         - assets/ema.jpg
         - assets/lend.jpg
         - assets/door.jpeg
+        - assets/rent/bugatti.jpeg
+        - assets/rent/ccc.jpeg
+        - assets/rent/lambo.jpeg
+        - assets/rent/lamborghini.jpeg
+        - assets/rent/pagani.jpeg
+        - assets/rent/veyron.jpg
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.dev/assets-and-images/#resolution-aware.
