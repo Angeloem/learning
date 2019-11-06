@@ -46,6 +46,22 @@ class MainApp extends StatelessWidget {
 class LayoutStart extends StatelessWidget{
 	@override
 	Widget build(BuildContext context) {
-    return null;
+    return Stack(
+	    children: <Widget>[
+	    	CarDetailsAnimation(),
+	    ],
+    );
+  }
+}
+
+class CarDetailsAnimation extends StatefulWidget{
+	@override
+	_CarDetailsAnimationState createState() => _CarDetailsAnimationState():
+}
+
+class _CarDetailsAnimationState extends State<CarDetailsAnimation>{
+	@override
+	Widget build(BuildContext context) {
+    return CarDetails();
   }
 }
