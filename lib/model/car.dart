@@ -8,8 +8,8 @@ CarList carList = CarList(
 			carName: 'Rolls',
 			price: 2100,
 			imgList: [
-				"assets/rolls.jpeg",
-				"assets/lend.jpg"
+				"rolls.jpeg",
+				"lend.jpg"
 			],
 			offerDetails: [
 				{
@@ -79,7 +79,7 @@ CarList carList = CarList(
 			],
 			offerDetails: [
 				{
-					Icon(Icons.bluetooth, size: iconSize,): 'Automatic'
+					Icon(Icons.autorenew, size: iconSize,): 'Automatic'
 				},
 				{
 					Icon(Icons.airline_seat_legroom_extra, size: iconSize,): '2 Seats'
