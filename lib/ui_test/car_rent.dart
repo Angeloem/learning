@@ -80,7 +80,7 @@ class CarDetails extends StatelessWidget{
 			    ),
 			    Container(
 				    width: double.infinity,
-				    child: CarCarousel extends StatefulWidget(),
+				    child: CarCarousel(),
 			    )
 		    ],
 	    ),
