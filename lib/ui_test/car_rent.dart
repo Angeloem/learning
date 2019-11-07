@@ -139,9 +139,17 @@ class CarCarousel extends StatefulWidget {
 }
 
 class CarCarouselState extends State<CarCarousel> {
-  @override
-  Widget build(BuildContext context) {
-    return null;
-  }
+	static final List<String> imgList = currentCar.imgList;
+	
+	final List<Widget> child = _map<Widget>(imgList, (index, String assetName){
+		return Container(
+			child: Image.asset("assets/$assetName", fit: BoxFit.fitWidth,)
+		);
+	}).toList();
+	
+	@override
+	Widget build(BuildContext context) {
+	return null;
+	}
 	
 }
