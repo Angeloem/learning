@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:learning/ui_test/car_rent.dart';
 import 'package:learning/ui_test/layout.dart';
 
 void main() {
@@ -103,7 +104,7 @@ class FormState extends State<Form>{
 								height: 40.0,
 								child: new RaisedButton(
 									onPressed: (){Navigator.push(context, MaterialPageRoute(
-										builder: (context) => Layout()
+										builder: (context) => MyApp()
 									));},
 									color: Colors.blue,
 									padding: const EdgeInsets.all(2.0),
